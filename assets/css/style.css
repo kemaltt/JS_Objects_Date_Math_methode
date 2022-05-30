@@ -25,10 +25,12 @@ section {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     place-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 0 10%;
 }
 
 .title {
     font-size: 1rem;
     padding: 10px;
+    color: tomato;
 }
