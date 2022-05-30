@@ -19,15 +19,16 @@ section {
 }
 
 .uhr_display {
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
     font-size: 2rem;
 }
 
-.uhr_description {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2vh 0 0 3%;
+.title {
+    font-size: 1rem;
+    padding: 10px;
 }
